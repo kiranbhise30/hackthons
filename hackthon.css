@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:  sans-serif;
+}
+/*   style for background   */
+header{
+    background-color: rgb(89, 102, 102);
+    background-size: cover;
+    height: 100vh;
+}
+/*    create button here  */
+ul{
+    float: right;
+    list-style: none;
+   
+}
+/*  style content here */
+ul > p{
+    text-align: right;
+    color:rgb(17, 165, 158);
+    margin-top: 30px;
+    margin-right: 20px;
+            
+}
+/*    styling button   */
+ul > li {
+    display: inline-block;
+    margin-top: 20px; 
+}
+/*    styling bttn   */
+ul > li > a{
+
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: 0.6s ease;
+    
+}
+/*  use hover for attractive    */
+ul > li > a:hover{
+    color:rgb(17, 165, 158) ;
+}
+/*  logo styling   */
+.logo > a{
+    color: white;
+    float: left;
+    text-decoration: none;
+    font-size: 4em;
+    margin-top: 20px;
+
+}
+/*  use hover for attractive    */
+.logo > a:hover{
+    color: rgb(17, 165, 158) ;
+}
+/*  content     */
+.title{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+/*   styling content   */
+h2{
+    font-size: xx-large;
+    color: rgb(17, 165, 158);
+    text-align: center;
+}
+
+p{
+    font-size:x-large;
+    color: white;
+    text-align: center;
+}
+/*    create button styling  */
+ .button{
+     position: absolute;
+    text-align: center;
+    bottom: 20%;
+    left: 45%;
+    
+}
+
+.btn{
+    margin-bottom: 50%;
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid white;
+    padding: 10px 30px;
+    transition: 0.6s ease;
+    border-radius: 5px;
+     
+}
+/*    hover use   */
+.btn:hover {
+    background-color: aliceblue;
+    color:rgb(17, 165, 158) ;
+}
